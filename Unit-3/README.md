@@ -28,4 +28,4 @@ Unlike arrays, linked lists do not require contiguous memory and can grow or shr
 - Slightly slower than arrays due to pointer overhead.
 
 
-<img src="https://media.geeksforgeeks.org/wp-content/uploads/20250619155958124670/Linked-list.webp" width=500px>
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20250619155958124670/Linked-list.webp" width=600px>
