@@ -37,6 +37,8 @@ class Node {
 | Level-order   | Breadth-first traversal using a queue |
 
 
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20240811023858/Binary-Tree-Representation.webp" width=400px>
+
 ### Binary Tree: Key Properties
 1. Node Structure
 - Each node has:
