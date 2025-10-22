@@ -29,3 +29,4 @@ Unlike arrays, linked lists do not require contiguous memory and can grow or shr
 
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20250619155958124670/Linked-list.webp" width=600px>
+
