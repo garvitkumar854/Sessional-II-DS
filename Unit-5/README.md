@@ -44,7 +44,7 @@ class Node {
 - Each node has:
     - Data
     - **Left child pointer**
-    - *Right child pointer*
+    - **Right child pointer**
 2. Maximum Nodes at Level l
 - A binary tree can have at most 2^l nodes at level l (starting from level 0).
 3. Maximum Nodes in a Tree of Height h
