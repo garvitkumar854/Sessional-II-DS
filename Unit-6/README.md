@@ -40,3 +40,38 @@ Graphs can be stored in **two common ways**:
 - `A[i][j] = 1` if there is an edge between vertex `i` and `j`
 - `A[i][j] = 0` otherwise
 - For weighted graphs, the cell stores the weight instead of `1`.
+Example:
+- Vertices: A, B, C
+- Edges: A–B, B–C, A–C
+
+|   | A | B | C |
+| - | - | - | - |
+| A | 0 | 1 | 1 |
+| B | 1 | 0 | 1 |
+| C | 1 | 1 | 0 |
+
+
+**Pros:**
+- Easy to implement
+- Easy to check if an edge exists `(O(1))`
+
+**Cons:**
+- Uses more space `(O(V²))`, even for sparse graphs
+
+#### 2. Adjacency List
+- Each vertex has a list of its adjacent vertices.
+- Implemented using arrays or linked lists.
+Example (same graph):
+```css
+A → B → C
+B → A → C
+C → A → B
+```
+
+**Pros:**
+- Space efficient for sparse graphs `(O(V + E)`
+- Easier to iterate through neighbors
+
+**Cons:**
+- Slower to check if a specific edge exists
+
