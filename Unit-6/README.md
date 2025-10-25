@@ -29,7 +29,7 @@ G = (V, E)
 | **Connected Graph**          | Path exists between every pair of vertices | Communication network     |
 | **Disconnected Graph**       | Some vertices are not reachable            | Isolated systems          |
 
-<img src="https://cdn-images-1.medium.com/max/800/1*dX9TdlR6wD5lkPnWG1h80g.png" width=740px>
+<img src="https://cdn-images-1.medium.com/max/800/1*dX9TdlR6wD5lkPnWG1h80g.png" width=750px>
 
 
 ### Graph Representation (Operations)
